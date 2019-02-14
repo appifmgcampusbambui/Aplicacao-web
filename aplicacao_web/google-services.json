@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "334920875988",
+    "firebase_url": "https://ifmgcampusbambui-56ff6.firebaseio.com",
+    "project_id": "ifmgcampusbambui-56ff6",
+    "storage_bucket": "ifmgcampusbambui-56ff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334920875988:android:e44af76c36aaf4bf",
+        "android_client_info": {
+          "package_name": "br.edu.ifmg.bambui.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334920875988-tqrsocm9tjrsle61anqnmuoai7sppgtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfkLR2ZT-MGcJM9tLcDy8lYXxkzM60G7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

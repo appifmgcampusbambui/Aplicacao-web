@@ -1,0 +1,44 @@
+body {
+    padding-top: 5rem;
+    height: 100%;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.container-center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-grid-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: black;
+}
+
+.link-black {
+    color: black;
+}
+
+.campos-forms {
+    padding: 1rem;
+}
+
+.ajuste-campos-forms {
+    padding-top: 0.5rem;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.borda-tabela td, .borda-tabela th{
+    border-color: black !important;
+}

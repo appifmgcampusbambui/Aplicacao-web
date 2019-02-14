@@ -1,0 +1,22 @@
+html_menu.php
+<!--
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link navbar-brand" href="#">
+                    <?php if (isset($_SESSION['appmeucampus_nome'])) { 
+                    echo "[" . $_SESSION['appmeucampus_id'] . "-" . $_SESSION['appmeucampus_nome'];
+                    $id = $_SESSION['appmeucampus_id'] . "]";
+                    } ?>]
+                </a>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link" href="<?= base_url() ?>Principal/sair">Sair</a></li>        
+        </ul>
+    -->
+
+
+
+        log_message('debug', 'Id do usuário: ' . $idUsuario);
+        log_message('debug', 'registros: ' . count($dados['usuario']));
+        log_message('debug', 'senha atual informada: ' . $senhaAtual);
+        log_message('debug', 'senha atual BD: ' . $dados['usuario'][0]->senha);
+        log_message('debug', 'teste eduardo: ' . password_verify($senhaAtual, $dados['usuario'][0]->senha));
